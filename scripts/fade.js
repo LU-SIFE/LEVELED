@@ -1,13 +1,3 @@
-document.addEventListener('keydown', logKey);
-function logKey(e) {
-    keypress = `${e.code}`;
-
-
-    if (keypress == "Space") {
-        fade(proceed_text);
-    }
-}
-
 function fade(element) {
     var op = 1;  // initial opacity
     var timer = setInterval(function () {
@@ -34,4 +24,3 @@ function unfade(element) {
     }, 50);
 
 }
-setTimeout(() => unfade(proceed_text), 2000);
