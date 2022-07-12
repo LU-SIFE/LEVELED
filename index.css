@@ -1,0 +1,23 @@
+html {
+	background-color: #1F1F1F;
+	font-family: monospace;
+	color: white;
+	font-size: 1.4em;
+	cursor: none;
+}
+
+body {
+}
+
+#text_container {
+	width: fit-content;
+	height: fit-content;
+	text-align: center;
+	margin: auto;
+	margin-top: 25%;
+}
+
+#proceed_text {
+	display: inline;
+	opacity: 0;
+}
