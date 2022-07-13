@@ -18,6 +18,13 @@ body {
 }
 
 #proceed_text {
-	display: inline;
+	position:  absolute;
 	opacity: 0;
+	width: fit-content;
+	height: fit-content;
+	text-align: center;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, -50%);
+	
 }
