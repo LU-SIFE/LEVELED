@@ -1,6 +1,8 @@
 //variable setup
 var text_progressable = false;
 var story_progress = 0;
+var fast_text = false;
+var pause_state = false;
 
 setTimeout(() => unfade(proceed_text), 2000);
 setTimeout(() => text_progressable = true, 3000);
